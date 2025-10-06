@@ -31,6 +31,14 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16103jdi_r63452_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16103jdi_r63452_1080p_cmd_mode_dsi_panel.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16118samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16118samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml \
+    vendor/oppo/R11/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a512_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b02 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a512_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.elf \
+    vendor/oppo/R11/proprietary/vendor/firmware/a512_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.mdt \
+    vendor/oppo/R11/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/oppo/R11/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/oppo/R11/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16051/16051_FW_S3508_SYNAPTICS.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16051/16051_FW_S3508_SYNAPTICS.img \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16051/16051_Limit_data.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16051/16051_Limit_data.img \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16103/16103_FW_S3320_JDI.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16103/16103_FW_S3320_JDI.img \
