@@ -45,7 +45,30 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16103/16103_Limit_data.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16103/16103_Limit_data.img \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16118/16118_FW_S3508_SYNAPTICS.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16118/16118_FW_S3508_SYNAPTICS.img \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16118/16118_Limit_data.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16118/16118_Limit_data.img \
+    vendor/oppo/R11/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/oppo/R11/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
     vendor/oppo/R11/proprietary/vendor/lib/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.sdm660.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPolarrRender.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libSensorManagerHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorManagerHAL.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libStDualCam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDualCam.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libVDUpScale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDUpScale.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libcamera_core_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_core_hwi.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilter.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct_shimlayer.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmms_gyro_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_gyro_vstab.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmms_gyro_vstab_auth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_gyro_vstab_auth.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmms_hal_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_hal_vstab.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmms_warper_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_warper_vstab.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libocam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libocam_common.so \
+    vendor/oppo/R11/proprietary/vendor/lib/liboppo_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppo_platform_hwi.so \
+    vendor/oppo/R11/proprietary/vendor/lib/liboppoalgolib.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppoalgolib.so \
+    vendor/oppo/R11/proprietary/vendor/lib/liboppocamalgo_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppocamalgo_daemon.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libopposfr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopposfr.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
+    vendor/oppo/R11/proprietary/vendor/lib/libstface_fd_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstface_fd_api.so \
     vendor/oppo/R11/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
     vendor/oppo/R11/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so
