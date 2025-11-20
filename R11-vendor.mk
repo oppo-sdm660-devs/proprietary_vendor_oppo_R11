@@ -155,6 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3m3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3sm_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
+    vendor/oppo/R11/proprietary/vendor/etc/dirac/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/diracvdd.bin \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16103jdi_r63452_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16103jdi_r63452_1080p_cmd_mode_dsi_panel.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16118samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16118samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml \
@@ -2327,5 +2328,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
     vendor/oppo/R11/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/oppo/R11/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
+    vendor/oppo/R11/proprietary/vendor/lib/rfsa/adsp/dirac_16051.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_16051.so \
+    vendor/oppo/R11/proprietary/vendor/lib/rfsa/adsp/dirac_16103.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_16103.so \
+    vendor/oppo/R11/proprietary/vendor/lib/rfsa/adsp/dirac_16118.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_16118.so \
     vendor/oppo/R11/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
     vendor/oppo/R11/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so
