@@ -15,6 +15,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
     vendor/oppo/R11/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
     vendor/oppo/R11/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
+    vendor/oppo/R11/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
+    vendor/oppo/R11/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16051/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16051/Bluetooth_cal.acdb \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16051/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16051/General_cal.acdb \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16051/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16051/Global_cal.acdb \
@@ -156,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/dirac/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/diracvdd.bin \
+    vendor/oppo/R11/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16103jdi_r63452_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16103jdi_r63452_1080p_cmd_mode_dsi_panel.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16118samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16118samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml \
@@ -167,6 +170,24 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/oppo/R11/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
     vendor/oppo/R11/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b00 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b01 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b02 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b03 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b04 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b05 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b06 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b07 \
+    vendor/oppo/R11/proprietary/vendor/firmware/a_fp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.mdt \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b00 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b01 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b02 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b03 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b04 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b05 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b06 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b07 \
+    vendor/oppo/R11/proprietary/vendor/firmware/b_fp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.mdt \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16051/16051_FW_S3508_SYNAPTICS.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16051/16051_FW_S3508_SYNAPTICS.img \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16051/16051_Limit_data.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16051/16051_Limit_data.img \
     vendor/oppo/R11/proprietary/vendor/firmware/tp/16103/16103_FW_S3320_JDI.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/16103/16103_FW_S3320_JDI.img \
@@ -2331,5 +2352,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/lib/rfsa/adsp/dirac_16051.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_16051.so \
     vendor/oppo/R11/proprietary/vendor/lib/rfsa/adsp/dirac_16103.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_16103.so \
     vendor/oppo/R11/proprietary/vendor/lib/rfsa/adsp/dirac_16118.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_16118.so \
+    vendor/oppo/R11/proprietary/vendor/lib64/android.frameworks.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.fingerprintservice@1.0.so \
     vendor/oppo/R11/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
-    vendor/oppo/R11/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so
+    vendor/oppo/R11/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so \
+    vendor/oppo/R11/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
+    vendor/oppo/R11/proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.commondcs@1.0.so \
+    vendor/oppo/R11/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
