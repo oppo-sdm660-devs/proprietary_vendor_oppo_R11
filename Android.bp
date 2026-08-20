@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "device/oppo/R11",
+        "device/oppo/sdm660-common",
         "hardware/qcom-caf/sdm660",
         "vendor/oppo/sdm660-common",
     ],
