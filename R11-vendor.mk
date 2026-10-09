@@ -28,17 +28,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16118/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16118/Hdmi_cal.acdb \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16118/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16118/Headset_cal.acdb \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16118/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16118/Speaker_cal.acdb \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/oppo/R11/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/CPCalibrationData.bin \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/cp/FusionCalibrationParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/FusionCalibrationParams.bin \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/cp/SystemParamsBokeh.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsBokeh.bin \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/cp/SystemParamsFusion.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsFusion.bin \
+    vendor/oppo/R11/proprietary/system/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/CPCalibrationData.bin \
+    vendor/oppo/R11/proprietary/system/etc/camera/cp/FusionCalibrationParams.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/FusionCalibrationParams.bin \
+    vendor/oppo/R11/proprietary/system/etc/camera/cp/SystemParamsBokeh.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/SystemParamsBokeh.bin \
+    vendor/oppo/R11/proprietary/system/etc/camera/cp/SystemParamsFusion.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/SystemParamsFusion.bin \
     vendor/oppo/R11/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl0.rgb32 \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
+    vendor/oppo/R11/proprietary/system/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/faceTpl0.rgb32 \
+    vendor/oppo/R11/proprietary/system/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/faceTpl1.rgb32 \
+    vendor/oppo/R11/proprietary/system/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/gasryuv.model \
     vendor/oppo/R11/proprietary/vendor/etc/camera/gc2375h_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gc2375h_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/imx214_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx214_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_chromatix.xml \
@@ -112,7 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3m3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3sm_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
+    vendor/oppo/R11/proprietary/system/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/skinSeg.model \
     vendor/oppo/R11/proprietary/vendor/etc/dirac/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/diracvdd.bin \
     vendor/oppo/R11/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/oppo/R11/proprietary/vendor/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16051samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml \
@@ -2221,6 +2220,9 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3p8sp_postproc \
     libchromatix_s5k3p8sp_preview \
     libchromatix_s5k3p8sp_snapshot \
+    libmmcamera2_mct_shimlayer \
+    libmmcamera2_q3a_core \
+    libmmcamera2_stats_modules \
     libmmcamera_atmel_at24c32e_eeprom \
     libmmcamera_dw9761b_2d_eeprom \
     libmmcamera_imx214 \
@@ -2316,3 +2318,8 @@ PRODUCT_PACKAGES += \
     dirac_16118 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
     qfp-daemon
+
+PRODUCT_PACKAGES += libarcsoft_relighting_pro_image
+
+# HAL3 front-beauty lite fallback core (R11 only)
+PRODUCT_PACKAGES += libarcsoft_beautyshot_lite_image
