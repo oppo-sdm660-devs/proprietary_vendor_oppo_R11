@@ -2221,6 +2221,9 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3p8sp_postproc \
     libchromatix_s5k3p8sp_preview \
     libchromatix_s5k3p8sp_snapshot \
+    libmmcamera2_mct_shimlayer \
+    libmmcamera2_q3a_core \
+    libmmcamera2_stats_modules \
     libmmcamera_atmel_at24c32e_eeprom \
     libmmcamera_dw9761b_2d_eeprom \
     libmmcamera_imx214 \
