@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16118/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16118/Hdmi_cal.acdb \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16118/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16118/Headset_cal.acdb \
     vendor/oppo/R11/proprietary/vendor/etc/acdbdata/16118/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16118/Speaker_cal.acdb \
-    vendor/oppo/R11/proprietary/vendor/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/oppo/R11/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/oppo/R11/proprietary/vendor/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/CPCalibrationData.bin \
     vendor/oppo/R11/proprietary/vendor/etc/camera/cp/FusionCalibrationParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/FusionCalibrationParams.bin \
