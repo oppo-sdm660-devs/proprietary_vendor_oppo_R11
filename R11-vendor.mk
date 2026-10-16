@@ -2320,3 +2320,6 @@ PRODUCT_PACKAGES += \
     qfp-daemon
 
 PRODUCT_PACKAGES += libarcsoft_relighting_pro_image
+
+# HAL3 front-beauty lite fallback core (R11 only)
+PRODUCT_PACKAGES += libarcsoft_beautyshot_lite_image

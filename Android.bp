@@ -56445,3 +56445,18 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_beautyshot_lite_image",
+    owner: "oppo",
+    strip: { none: true },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libarcsoft_beautyshot_lite_image.so"],
+            shared_libs: ["libmpbase", "liblog", "libstdc++_vendor", "libm", "libc", "libdl"],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
